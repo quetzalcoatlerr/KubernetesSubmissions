@@ -25,16 +25,25 @@
         '';
       };
 
-      # 2. Docker-image build
-      packages.${system}.docker = pkgs.dockerTools.streamLayeredImage {
-        name = "my-app";
-        tag = "latest";
-        contents = [
-          
-        ];
-        config = {
-         Entrypoint = [ "/bin/app" ];
-         # Cmd = [ "--default-flags" ];
+      # 2. Binary app + Docker-image build
+      packages.${system} = rec {
+        logOut = pkgs.buildGoModule {
+          pname = "log_output";
+          version = "0.1.0";
+          src = ./log_output;
+          vendorHash = null;
+        };
+
+        docker = pkgs.dockerTools.streamLayeredImage {
+          name = "log_output";
+          tag = "latest";
+          contents = [
+            logOut
+            pkgs.cacert
+          ];
+          config = {
+            Entrypoint = [ "${logOut}/bin/log_output" ];
+          };
         };
       };
     };

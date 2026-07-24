@@ -15,7 +15,7 @@ export CONFIG_SHELL
 CXX='g++'
 export CXX
 HOSTTYPE='x86_64'
-HOST_PATH='/nix/store/1xklj6dmgcpgz60c9w2ynaq7ynzfsrrq-go-1.26.4/bin:/nix/store/c58aj5wi51fy8iiv1334akfcggpw8lbr-k3d-5.9.0/bin:/nix/store/8y8mkasqzjkgr5349s2hmac8wzfwmcy2-kubectl-1.36.2/bin:/nix/store/7vgl8w4ma0pl7f32n0rjgnmj6xalmiac-kubernetes-helm-4.2.3/bin:/nix/store/5y9rr0pvw0x1c912lhnpwv1glnj9hjxq-docker-29.6.1/bin:/nix/store/cp7wjv1pl4wapfk48svvizxd089v9h0a-coreutils-9.11/bin:/nix/store/f4bixss3h2i80asiz45aj4qmplvmam4k-findutils-4.10.0/bin:/nix/store/x90w8bcl58l9va6xhvfjgwmwl45vjf0n-diffutils-3.12/bin:/nix/store/68d86idclxs6bfaqprmdx052xqy9qlv9-gnused-4.10/bin:/nix/store/p48bl1kiw42fakak404srawmlr730b7j-gnugrep-3.12/bin:/nix/store/cb4h2p8j9m45riqawxlfndpz4arlv4rs-gawk-5.4.0/bin:/nix/store/fq62mc3s8ddxgk1nvlbzly2zmr7v2cax-gnutar-1.35/bin:/nix/store/ljxnca2bb04vlrhivnl7j7p1ph9xz4sg-gzip-1.14/bin:/nix/store/bnjhp47nmncm9jlrv6q77hpqwbzxmafr-bzip2-1.0.8-bin/bin:/nix/store/5hndr36f8c9d9z305r27z6dxkhysng95-gnumake-4.4.1/bin:/nix/store/v8llyqw71lygr2llhmcc8ya5bdlzq45v-bash-5.3p9/bin:/nix/store/bx13mhzpi1va0gccy86ycpbdj9agaw46-patch-2.8/bin:/nix/store/68hf1657rfhnzi3s0l3gmqjjh1pr54dy-xz-5.8.3-bin/bin:/nix/store/cqzmdgzwvi3xv3pfl4zymj7yaprkp7c8-file-5.48/bin'
+HOST_PATH='/nix/store/cp7wjv1pl4wapfk48svvizxd089v9h0a-coreutils-9.11/bin:/nix/store/f4bixss3h2i80asiz45aj4qmplvmam4k-findutils-4.10.0/bin:/nix/store/x90w8bcl58l9va6xhvfjgwmwl45vjf0n-diffutils-3.12/bin:/nix/store/68d86idclxs6bfaqprmdx052xqy9qlv9-gnused-4.10/bin:/nix/store/p48bl1kiw42fakak404srawmlr730b7j-gnugrep-3.12/bin:/nix/store/cb4h2p8j9m45riqawxlfndpz4arlv4rs-gawk-5.4.0/bin:/nix/store/fq62mc3s8ddxgk1nvlbzly2zmr7v2cax-gnutar-1.35/bin:/nix/store/ljxnca2bb04vlrhivnl7j7p1ph9xz4sg-gzip-1.14/bin:/nix/store/bnjhp47nmncm9jlrv6q77hpqwbzxmafr-bzip2-1.0.8-bin/bin:/nix/store/5hndr36f8c9d9z305r27z6dxkhysng95-gnumake-4.4.1/bin:/nix/store/v8llyqw71lygr2llhmcc8ya5bdlzq45v-bash-5.3p9/bin:/nix/store/bx13mhzpi1va0gccy86ycpbdj9agaw46-patch-2.8/bin:/nix/store/68hf1657rfhnzi3s0l3gmqjjh1pr54dy-xz-5.8.3-bin/bin:/nix/store/cqzmdgzwvi3xv3pfl4zymj7yaprkp7c8-file-5.48/bin'
 export HOST_PATH
 IFS=' 	
 '
@@ -35,7 +35,7 @@ NIX_CC='/nix/store/vdaz6sk455r8sbpi7wzaf9vlz5i9yyvx-gcc-wrapper-15.2.0'
 export NIX_CC
 NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
 export NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
-NIX_CFLAGS_COMPILE=' -frandom-seed=27cnan8qxg'
+NIX_CFLAGS_COMPILE=' -frandom-seed=a8wxvxq3s9'
 export NIX_CFLAGS_COMPILE
 NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
@@ -56,7 +56,7 @@ OLDPWD=''
 export OLDPWD
 OPTERR='1'
 OSTYPE='linux-gnu'
-PATH='/nix/store/if2h609psbpg1ysf1m27dpshjk2wzpk4-patchelf-0.15.2/bin:/nix/store/vdaz6sk455r8sbpi7wzaf9vlz5i9yyvx-gcc-wrapper-15.2.0/bin:/nix/store/0axpqqmj1rcanmm2i8vzpd8xxwkmq2jf-gcc-15.2.0/bin:/nix/store/1k05xwhd5wjciwrr6zd54mfw8za5lqnz-glibc-2.42-67-bin/bin:/nix/store/cp7wjv1pl4wapfk48svvizxd089v9h0a-coreutils-9.11/bin:/nix/store/nhjmc8clp6igx6n6zrjxlh7zri78p7ng-binutils-wrapper-2.46/bin:/nix/store/ddk8rvjihg4vhh1k6x9rc65y1zb1kx34-binutils-2.46/bin:/nix/store/1xklj6dmgcpgz60c9w2ynaq7ynzfsrrq-go-1.26.4/bin:/nix/store/c58aj5wi51fy8iiv1334akfcggpw8lbr-k3d-5.9.0/bin:/nix/store/8y8mkasqzjkgr5349s2hmac8wzfwmcy2-kubectl-1.36.2/bin:/nix/store/7vgl8w4ma0pl7f32n0rjgnmj6xalmiac-kubernetes-helm-4.2.3/bin:/nix/store/5y9rr0pvw0x1c912lhnpwv1glnj9hjxq-docker-29.6.1/bin:/nix/store/cp7wjv1pl4wapfk48svvizxd089v9h0a-coreutils-9.11/bin:/nix/store/f4bixss3h2i80asiz45aj4qmplvmam4k-findutils-4.10.0/bin:/nix/store/x90w8bcl58l9va6xhvfjgwmwl45vjf0n-diffutils-3.12/bin:/nix/store/68d86idclxs6bfaqprmdx052xqy9qlv9-gnused-4.10/bin:/nix/store/p48bl1kiw42fakak404srawmlr730b7j-gnugrep-3.12/bin:/nix/store/cb4h2p8j9m45riqawxlfndpz4arlv4rs-gawk-5.4.0/bin:/nix/store/fq62mc3s8ddxgk1nvlbzly2zmr7v2cax-gnutar-1.35/bin:/nix/store/ljxnca2bb04vlrhivnl7j7p1ph9xz4sg-gzip-1.14/bin:/nix/store/bnjhp47nmncm9jlrv6q77hpqwbzxmafr-bzip2-1.0.8-bin/bin:/nix/store/5hndr36f8c9d9z305r27z6dxkhysng95-gnumake-4.4.1/bin:/nix/store/v8llyqw71lygr2llhmcc8ya5bdlzq45v-bash-5.3p9/bin:/nix/store/bx13mhzpi1va0gccy86ycpbdj9agaw46-patch-2.8/bin:/nix/store/68hf1657rfhnzi3s0l3gmqjjh1pr54dy-xz-5.8.3-bin/bin:/nix/store/cqzmdgzwvi3xv3pfl4zymj7yaprkp7c8-file-5.48/bin'
+PATH='/nix/store/1xklj6dmgcpgz60c9w2ynaq7ynzfsrrq-go-1.26.4/bin:/nix/store/c58aj5wi51fy8iiv1334akfcggpw8lbr-k3d-5.9.0/bin:/nix/store/8y8mkasqzjkgr5349s2hmac8wzfwmcy2-kubectl-1.36.2/bin:/nix/store/7vgl8w4ma0pl7f32n0rjgnmj6xalmiac-kubernetes-helm-4.2.3/bin:/nix/store/if2h609psbpg1ysf1m27dpshjk2wzpk4-patchelf-0.15.2/bin:/nix/store/vdaz6sk455r8sbpi7wzaf9vlz5i9yyvx-gcc-wrapper-15.2.0/bin:/nix/store/0axpqqmj1rcanmm2i8vzpd8xxwkmq2jf-gcc-15.2.0/bin:/nix/store/1k05xwhd5wjciwrr6zd54mfw8za5lqnz-glibc-2.42-67-bin/bin:/nix/store/cp7wjv1pl4wapfk48svvizxd089v9h0a-coreutils-9.11/bin:/nix/store/nhjmc8clp6igx6n6zrjxlh7zri78p7ng-binutils-wrapper-2.46/bin:/nix/store/ddk8rvjihg4vhh1k6x9rc65y1zb1kx34-binutils-2.46/bin:/nix/store/cp7wjv1pl4wapfk48svvizxd089v9h0a-coreutils-9.11/bin:/nix/store/f4bixss3h2i80asiz45aj4qmplvmam4k-findutils-4.10.0/bin:/nix/store/x90w8bcl58l9va6xhvfjgwmwl45vjf0n-diffutils-3.12/bin:/nix/store/68d86idclxs6bfaqprmdx052xqy9qlv9-gnused-4.10/bin:/nix/store/p48bl1kiw42fakak404srawmlr730b7j-gnugrep-3.12/bin:/nix/store/cb4h2p8j9m45riqawxlfndpz4arlv4rs-gawk-5.4.0/bin:/nix/store/fq62mc3s8ddxgk1nvlbzly2zmr7v2cax-gnutar-1.35/bin:/nix/store/ljxnca2bb04vlrhivnl7j7p1ph9xz4sg-gzip-1.14/bin:/nix/store/bnjhp47nmncm9jlrv6q77hpqwbzxmafr-bzip2-1.0.8-bin/bin:/nix/store/5hndr36f8c9d9z305r27z6dxkhysng95-gnumake-4.4.1/bin:/nix/store/v8llyqw71lygr2llhmcc8ya5bdlzq45v-bash-5.3p9/bin:/nix/store/bx13mhzpi1va0gccy86ycpbdj9agaw46-patch-2.8/bin:/nix/store/68hf1657rfhnzi3s0l3gmqjjh1pr54dy-xz-5.8.3-bin/bin:/nix/store/cqzmdgzwvi3xv3pfl4zymj7yaprkp7c8-file-5.48/bin'
 export PATH
 PS4='+ '
 RANLIB='ranlib'
@@ -73,12 +73,12 @@ STRINGS='strings'
 export STRINGS
 STRIP='strip'
 export STRIP
-XDG_DATA_DIRS='/nix/store/if2h609psbpg1ysf1m27dpshjk2wzpk4-patchelf-0.15.2/share'
+XDG_DATA_DIRS='/nix/store/1xklj6dmgcpgz60c9w2ynaq7ynzfsrrq-go-1.26.4/share:/nix/store/c58aj5wi51fy8iiv1334akfcggpw8lbr-k3d-5.9.0/share:/nix/store/8y8mkasqzjkgr5349s2hmac8wzfwmcy2-kubectl-1.36.2/share:/nix/store/7vgl8w4ma0pl7f32n0rjgnmj6xalmiac-kubernetes-helm-4.2.3/share:/nix/store/if2h609psbpg1ysf1m27dpshjk2wzpk4-patchelf-0.15.2/share'
 export XDG_DATA_DIRS
 __structuredAttrs=''
 export __structuredAttrs
 _substituteStream_has_warned_replace_deprecation='false'
-buildInputs='/nix/store/1xklj6dmgcpgz60c9w2ynaq7ynzfsrrq-go-1.26.4 /nix/store/c58aj5wi51fy8iiv1334akfcggpw8lbr-k3d-5.9.0 /nix/store/8y8mkasqzjkgr5349s2hmac8wzfwmcy2-kubectl-1.36.2 /nix/store/7vgl8w4ma0pl7f32n0rjgnmj6xalmiac-kubernetes-helm-4.2.3 /nix/store/5y9rr0pvw0x1c912lhnpwv1glnj9hjxq-docker-29.6.1'
+buildInputs=''
 export buildInputs
 buildPhase='{ echo "------------------------------------------------------------";
   echo " WARNING: the existence of this path is not guaranteed.";
@@ -132,7 +132,7 @@ mesonFlags=''
 export mesonFlags
 name='nix-shell-env'
 export name
-nativeBuildInputs=''
+nativeBuildInputs='/nix/store/1xklj6dmgcpgz60c9w2ynaq7ynzfsrrq-go-1.26.4 /nix/store/c58aj5wi51fy8iiv1334akfcggpw8lbr-k3d-5.9.0 /nix/store/8y8mkasqzjkgr5349s2hmac8wzfwmcy2-kubectl-1.36.2 /nix/store/7vgl8w4ma0pl7f32n0rjgnmj6xalmiac-kubernetes-helm-4.2.3'
 export nativeBuildInputs
 out='/home/quetzal/dev/mooc_fi/k8s_mooc/outputs/out'
 export out
@@ -153,10 +153,10 @@ phases='buildPhase'
 export phases
 pkg='/nix/store/vdaz6sk455r8sbpi7wzaf9vlz5i9yyvx-gcc-wrapper-15.2.0'
 declare -a pkgsBuildBuild=()
-declare -a pkgsBuildHost=('/nix/store/if2h609psbpg1ysf1m27dpshjk2wzpk4-patchelf-0.15.2' '/nix/store/0vj9lp345wbhfdagi0vr0wmczyjdsk3f-update-autotools-gnu-config-scripts-hook' '/nix/store/0y5xmdb7qfvimjwbq7ibg1xdgkgjwqng-no-broken-symlinks.sh' '/nix/store/cv1d7p48379km6a85h4zp6kr86brh32q-audit-tmpdir.sh' '/nix/store/85clx3b0xkdf58jn161iy80y5223ilbi-compress-man-pages.sh' '/nix/store/p3l1a5y7nllfyrjn2krlwgcc3z0cd3fq-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/cmzya9irvxzlkh7lfy6i82gbp0saxqj3-multiple-outputs.sh' '/nix/store/x8c40nfigps493a07sdr2pm5s9j1cdc0-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh' '/nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh' '/nix/store/vdaz6sk455r8sbpi7wzaf9vlz5i9yyvx-gcc-wrapper-15.2.0' '/nix/store/nhjmc8clp6igx6n6zrjxlh7zri78p7ng-binutils-wrapper-2.46' )
+declare -a pkgsBuildHost=('/nix/store/1xklj6dmgcpgz60c9w2ynaq7ynzfsrrq-go-1.26.4' '/nix/store/c58aj5wi51fy8iiv1334akfcggpw8lbr-k3d-5.9.0' '/nix/store/8y8mkasqzjkgr5349s2hmac8wzfwmcy2-kubectl-1.36.2' '/nix/store/7vgl8w4ma0pl7f32n0rjgnmj6xalmiac-kubernetes-helm-4.2.3' '/nix/store/if2h609psbpg1ysf1m27dpshjk2wzpk4-patchelf-0.15.2' '/nix/store/0vj9lp345wbhfdagi0vr0wmczyjdsk3f-update-autotools-gnu-config-scripts-hook' '/nix/store/0y5xmdb7qfvimjwbq7ibg1xdgkgjwqng-no-broken-symlinks.sh' '/nix/store/cv1d7p48379km6a85h4zp6kr86brh32q-audit-tmpdir.sh' '/nix/store/85clx3b0xkdf58jn161iy80y5223ilbi-compress-man-pages.sh' '/nix/store/p3l1a5y7nllfyrjn2krlwgcc3z0cd3fq-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/cmzya9irvxzlkh7lfy6i82gbp0saxqj3-multiple-outputs.sh' '/nix/store/x8c40nfigps493a07sdr2pm5s9j1cdc0-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh' '/nix/store/pilsssjjdxvdphlg2h19p0bfx5q0jzkn-strip.sh' '/nix/store/vdaz6sk455r8sbpi7wzaf9vlz5i9yyvx-gcc-wrapper-15.2.0' '/nix/store/nhjmc8clp6igx6n6zrjxlh7zri78p7ng-binutils-wrapper-2.46' )
 declare -a pkgsBuildTarget=()
 declare -a pkgsHostHost=()
-declare -a pkgsHostTarget=('/nix/store/1xklj6dmgcpgz60c9w2ynaq7ynzfsrrq-go-1.26.4' '/nix/store/c58aj5wi51fy8iiv1334akfcggpw8lbr-k3d-5.9.0' '/nix/store/8y8mkasqzjkgr5349s2hmac8wzfwmcy2-kubectl-1.36.2' '/nix/store/7vgl8w4ma0pl7f32n0rjgnmj6xalmiac-kubernetes-helm-4.2.3' '/nix/store/5y9rr0pvw0x1c912lhnpwv1glnj9hjxq-docker-29.6.1' )
+declare -a pkgsHostTarget=()
 declare -a pkgsTargetTarget=()
 declare -a postFixupHooks=('noBrokenSymlinksInAllOutputs' '_makeSymlinksRelative' '_multioutPropagateDev' )
 declare -a postUnpackHooks=('_updateSourceDateEpochFromSourceRoot' )
@@ -175,7 +175,8 @@ export propagatedNativeBuildInputs
 declare -a propagatedTargetDepFiles=('propagated-target-target-deps' )
 shell='/nix/store/v8llyqw71lygr2llhmcc8ya5bdlzq45v-bash-5.3p9/bin/bash'
 export shell
-shellHook=''
+shellHook='echo " Dev Environment Ready!"
+'
 export shellHook
 stdenv='/nix/store/sg7xjcivmh51ckjdr7bjik3lghd8kjax-stdenv-linux'
 export stdenv
